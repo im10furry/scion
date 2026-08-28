@@ -17,7 +17,7 @@ export default defineConfig({
         nav: [
           { text: 'Guide', link: '/guide/getting-started' },
           { text: 'Modules', link: '/modules/' },
-          { text: 'GitHub', link: 'https://github.com/DarkInno/scion' }
+          { text: 'GitHub', link: 'https://github.com/im10furry/scion' }
         ],
         sidebar: {
           '/guide/': [
@@ -69,7 +69,7 @@ export default defineConfig({
         nav: [
           { text: '指南', link: '/zh/guide/getting-started' },
           { text: '模块', link: '/zh/modules/' },
-          { text: 'GitHub', link: 'https://github.com/DarkInno/scion' }
+          { text: 'GitHub', link: 'https://github.com/im10furry/scion' }
         ],
         sidebar: {
           '/zh/guide/': [
@@ -118,12 +118,12 @@ export default defineConfig({
     logo: '/logo.svg',
     
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/DarkInno/scion' }
+      { icon: 'github', link: 'https://github.com/im10furry/scion' }
     ],
 
     footer: {
       message: 'Released under the MIT License.',
-      copyright: '© 2026 DarkInno'
+      copyright: '© 2026 im10furry'
     },
 
     search: {
