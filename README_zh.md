@@ -11,13 +11,13 @@ Scion 是面向 Go 后端开发的复制粘贴式源码模板库。它把常见�
 需要 Go 1.22 或更新版本：
 
 ```bash
-go install github.com/DarkInno/scion/cmd/scion@latest
+go install github.com/im10furry/scion/cmd/scion@latest
 ```
 
 如果需要固定版本：
 
 ```bash
-go install github.com/DarkInno/scion/cmd/scion@v0.1.3
+go install github.com/im10furry/scion/cmd/scion@v0.1.3
 ```
 
 确认 Go bin 目录已加入 `PATH`，然后验证安装：
@@ -45,7 +45,7 @@ scion add auth --standalone
 
 ## 二进制下载
 
-预编译二进制可以在 [GitHub Releases](https://github.com/DarkInno/scion/releases) 下载，支持 macOS、Linux、Windows 的 amd64 和 arm64。
+预编译二进制可以在 [GitHub Releases](https://github.com/im10furry/scion/releases) 下载，支持 macOS、Linux、Windows 的 amd64 和 arm64。
 
 使用 `SHA256SUMS` 校验下载文件：
 
@@ -134,7 +134,7 @@ scion/
 ## 开发
 
 ```bash
-git clone https://github.com/DarkInno/scion.git
+git clone https://github.com/im10furry/scion.git
 cd scion
 
 # registry 改动后重新生成 CLI 内置 bundle

@@ -14,7 +14,7 @@ hero:
       link: /zh/modules/
     - theme: alt
       text: GitHub
-      link: https://github.com/DarkInno/scion
+      link: https://github.com/im10furry/scion
 
 features:
   - icon: 🔐

@@ -15,7 +15,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/DarkInno/scion/internal/registry"
+	"github.com/im10furry/scion/internal/registry"
 )
 
 var fixedZipTime = time.Date(1980, 1, 1, 0, 0, 0, 0, time.UTC)

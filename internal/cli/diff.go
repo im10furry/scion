@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/DarkInno/scion/internal/copytree"
-	"github.com/DarkInno/scion/internal/registry"
+	"github.com/im10furry/scion/internal/copytree"
+	"github.com/im10furry/scion/internal/registry"
 )
 
 type diffResult struct {

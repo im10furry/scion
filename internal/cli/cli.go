@@ -12,10 +12,10 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/DarkInno/scion/internal/copytree"
-	"github.com/DarkInno/scion/internal/doctor"
-	"github.com/DarkInno/scion/internal/registry"
-	"github.com/DarkInno/scion/internal/version"
+	"github.com/im10furry/scion/internal/copytree"
+	"github.com/im10furry/scion/internal/doctor"
+	"github.com/im10furry/scion/internal/registry"
+	"github.com/im10furry/scion/internal/version"
 )
 
 type App struct {

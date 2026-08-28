@@ -3,9 +3,9 @@ package doctor_test
 import (
 	"testing"
 
-	"github.com/DarkInno/scion/internal/bundle"
-	"github.com/DarkInno/scion/internal/doctor"
-	"github.com/DarkInno/scion/internal/registry"
+	"github.com/im10furry/scion/internal/bundle"
+	"github.com/im10furry/scion/internal/doctor"
+	"github.com/im10furry/scion/internal/registry"
 )
 
 func TestDoctorStrictPassesReleaseReadyRegistry(t *testing.T) {

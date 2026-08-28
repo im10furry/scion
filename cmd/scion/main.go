@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/DarkInno/scion/internal/bundle"
-	"github.com/DarkInno/scion/internal/cli"
-	"github.com/DarkInno/scion/internal/registry"
+	"github.com/im10furry/scion/internal/bundle"
+	"github.com/im10furry/scion/internal/cli"
+	"github.com/im10furry/scion/internal/registry"
 )
 
 func main() {

@@ -193,7 +193,7 @@ jobs:
           set -euo pipefail
           tag="${{ steps.commit.outputs.tag }}"
           sha="${{ steps.commit.outputs.sha }}"
-          ldflags="-s -w -X github.com/DarkInno/scion/internal/version.Version=$tag -X github.com/DarkInno/scion/internal/version.Commit=$sha"
+          ldflags="-s -w -X github.com/im10furry/scion/internal/version.Version=$tag -X github.com/im10furry/scion/internal/version.Commit=$sha"
 
           rm -rf dist
           mkdir -p dist
@@ -255,7 +255,7 @@ jobs:
           ## Install
 
           \`\`\`bash
-          go install github.com/DarkInno/scion/cmd/scion@$tag
+          go install github.com/im10furry/scion/cmd/scion@$tag
           \`\`\`
 
           Or download a platform binary below and verify it with \`SHA256SUMS\`.

@@ -5,13 +5,13 @@
 Scion 需要 Go 1.22 或更新版本。
 
 ```bash
-go install github.com/DarkInno/scion/cmd/scion@latest
+go install github.com/im10furry/scion/cmd/scion@latest
 ```
 
 如果需要固定版本：
 
 ```bash
-go install github.com/DarkInno/scion/cmd/scion@v0.1.3
+go install github.com/im10furry/scion/cmd/scion@v0.1.3
 ```
 
 确认 Go bin 目录已加入 `PATH`，然后验证安装：
@@ -72,7 +72,7 @@ Scion 仍然不会修改你的项目级 `go.mod`；standalone 模式只会把该
 
 ## 二进制下载
 
-你也可以从 [GitHub Releases](https://github.com/DarkInno/scion/releases) 下载预编译二进制。
+你也可以从 [GitHub Releases](https://github.com/im10furry/scion/releases) 下载预编译二进制。
 
 使用 `SHA256SUMS` 校验下载文件：
 

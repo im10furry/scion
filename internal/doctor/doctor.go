@@ -8,7 +8,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/DarkInno/scion/internal/registry"
+	"github.com/im10furry/scion/internal/registry"
 )
 
 type Issue struct {

@@ -11,13 +11,13 @@ Scion is a copy-paste code library for Go backend development. It ships producti
 Install the CLI with Go 1.22 or newer:
 
 ```bash
-go install github.com/DarkInno/scion/cmd/scion@latest
+go install github.com/im10furry/scion/cmd/scion@latest
 ```
 
 For reproducible installs, pin a release:
 
 ```bash
-go install github.com/DarkInno/scion/cmd/scion@v0.1.3
+go install github.com/im10furry/scion/cmd/scion@v0.1.3
 ```
 
 Make sure your Go bin directory is on `PATH`, then verify the install:
@@ -45,7 +45,7 @@ scion add auth --standalone
 
 ## Binary Downloads
 
-Prebuilt binaries are available on the [GitHub Releases](https://github.com/DarkInno/scion/releases) page for macOS, Linux, and Windows on amd64 and arm64.
+Prebuilt binaries are available on the [GitHub Releases](https://github.com/im10furry/scion/releases) page for macOS, Linux, and Windows on amd64 and arm64.
 
 Verify a downloaded asset with `SHA256SUMS`:
 
@@ -134,7 +134,7 @@ scion/
 ## Development
 
 ```bash
-git clone https://github.com/DarkInno/scion.git
+git clone https://github.com/im10furry/scion.git
 cd scion
 
 # Regenerate the embedded CLI bundle after registry changes
